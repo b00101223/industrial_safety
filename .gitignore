@@ -1,0 +1,10 @@
+﻿venv/
+.venv/
+__pycache__/
+*.pyc
+runs/
+yolo11n.pt
+latest.json
+observations.jsonl
+snapshot.jpg
+.vscode/

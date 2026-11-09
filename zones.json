@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "cameras": {
+    "CAM01": {
+      "pixel_to_meter_scale": null,
+      "zones": [
+        {
+          "zone_id": "Z1",
+          "name": "Zone 1",
+          "zone_type": "restricted maintenance",
+          "ppe_required": [
+            "helmet",
+            "vest"
+          ],
+          "polygon": [
+            [
+              36,
+              35
+            ],
+            [
+              216,
+              36
+            ],
+            [
+              215,
+              254
+            ],
+            [
+              36,
+              249
+            ],
+            [
+              37,
+              31
+            ]
+          ]
+        },
+        {
+          "zone_id": "Z2",
+          "name": "Zone 2",
+          "zone_type": "machinery",
+          "ppe_required": [
+            "helmet",
+            "vest"
+          ],
+          "polygon": [
+            [
+              516,
+              279
+            ],
+            [
+              622,
+              275
+            ],
+            [
+              618,
+              418
+            ],
+            [
+              514,
+              414
+            ],
+            [
+              516,
+              277
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
